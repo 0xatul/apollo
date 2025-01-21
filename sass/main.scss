@@ -9,6 +9,7 @@
 @import "parts/_tags.scss";
 @import "parts/_mermaid.scss";
 @import "parts/_search.scss";
+@import "parts/_description.scss"; 
 
 
 :root {
@@ -18,7 +19,8 @@
   /* Fonts */
   --text-font: 'Jetbrains Mono';
   --header-font: 'Space Grotesk', 'Helvetica', sans-serif;
-  --code-font: 'Jetbrains Mono NL';
+  --code-font: 'Jetbrains Mono';
+  font-variant-ligatures: none;
 }
 
 html {

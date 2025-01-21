@@ -17,11 +17,6 @@
             {% endfor %}
         </div>
         
-        <div class="description">
-            {% if config.description %}
-                {{ config.description }}
-            {% endif %} 
-        </div>
     </div>
 
     <nav>
@@ -88,3 +83,9 @@
         {% endif %}
     </nav>
 </header>
+
+<div class="description">
+    {% if config.description %}
+        {{ config.description }}
+    {% endif %} 
+</div>

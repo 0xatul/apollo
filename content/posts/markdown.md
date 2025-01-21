@@ -23,6 +23,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ```rust
 fn main() {
+    let a = 3 == 1; 
     println!("Hello World");
 }
 ```
